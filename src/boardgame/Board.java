@@ -32,4 +32,9 @@ public class Board {
 	public Piece piece(Position position) {
 		return pieces[position.getRow()][position.getColumn()]; //aqui ele retorna a pieces pela posicions criadas pelo getter.
 	}
+	
+	public void placePiece(Piece piece, Position position) {
+		pieces[position.getRow()][position.getColumn()] = piece; //esse metodo pega a posição da linha e da coluna e atribui o piece.
+		piece.position = position;
+	}
 }

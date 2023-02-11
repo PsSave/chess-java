@@ -3,7 +3,7 @@ package application;
 import chess.ChessPiece;
 
 public class UI {
-	public static void printBoard(ChessPiece[][] pieces) {
+	public static void printBoard(ChessPiece[][] pieces) { //ele imprime na tela o tabuleiro de xadrez atraves de uma lógica.
 		for (int i = 0; i < pieces.length; i++) {
 			System.out.print((8 - i) + " ");
 			for (int j = 0; j < pieces.length; j++) {
