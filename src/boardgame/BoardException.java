@@ -1,6 +1,6 @@
 package boardgame;
 
-public class BoardException extends RuntimeException{
+public class BoardException extends RuntimeException{ //excessão para corrigir erros.
 
 	private static final long serialVersionUID = 1L;
 
